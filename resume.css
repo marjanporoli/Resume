@@ -1,0 +1,75 @@
+.outer{
+    width: 50rem;
+    height: 200%;
+    border-radius: 40px; 
+    background-color: rgb(221, 21, 98);
+    position: absolute;
+    top: 1px;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%,50%);
+    background-size: 100%,100%;
+    background-image: url("https://freefrontend.com/assets/img/css-background-patterns/css-lattice-pattern.png");
+    animation-name: slider;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes slider{
+    0%{
+        background-image: url("http://www.vanseodesign.com/blog/wp-content/uploads/2011/10/background-3.jpg");
+    }
+    35%{
+        background-image: url("https://freefrontend.com/assets/img/css-background-patterns/css-lattice-pattern.png");
+    }
+    75%{
+        background-image: url("https://1stwebdesigner.com/wp-content/uploads/2019/07/css-background-effects-thumb.jpg");
+    }
+}
+#std_dtl{
+    color: rgb(149, 132, 197);
+}
+
+#name_text{
+    font-size: 15px;
+    font-family: serif;
+    color: rgb(105, 247, 83);
+    font-weight: 900;
+}
+#class_text{
+    font-size: 15px;
+    font-family: serif;
+    color: rgb(10, 244, 252);
+    font-weight: 900;
+}
+#phn_num{
+    font-size: 15px;
+    font-family: serif;
+    color: rgb(243, 38, 157);
+    font-weight: 900;
+}
+#gendr_text{
+    font-size: 15px;
+    font-family: serif;
+    color: cadetblue;
+    font-weight: 900;
+}
+#hobb_text{
+    font-size: 15px;
+    font-family: serif;
+    color: rgb(241, 22, 70);
+    font-weight: 900;
+}
+#cors_text{
+    font-size: 15px;
+    font-family: serif;
+    color: rgb(167, 231, 93);
+    font-weight: 900;
+}
+#pass_text{
+    font-size: 15px;
+    font-family: serif;
+    color: rgb(131, 68, 247);
+    font-weight: 900;
+}
